@@ -176,7 +176,8 @@ doubleSmallNumber' x = (if x > 100 then x else x*2) + 1
 -- 1
 
 -- init -> return a list without its last element
-
+-- ghci> init [5,4,3,2,1]  
+-- [5,4,3,2]
 -- ********************** --
 --    useful functions    --
 
